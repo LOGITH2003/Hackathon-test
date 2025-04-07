@@ -1,7 +1,8 @@
 model:
   provider: azure_openai
-  model_name: gpt-4o-mini  # this should match your Azure deployment name
+  model_name: gpt-4o-mini
   azure_openai:
     api_key: $OPENAI_KEY
     api_base: https://shrutiaiinstance.openai.azure.com/
     api_version: 2025-01-01-preview
+    deployment_name: gpt-4o-mini
